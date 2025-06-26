@@ -33,24 +33,25 @@ git clone https://github.com/yourusername/pickup-line-generator.git
 cd pickup-line-generator
 ```
 
-2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-3️⃣ Set Up Environment Variables
+## 3️⃣ Set Up Environment Variables
 ```bash
 OPENAI_API_KEY=your-openai-api-key
 ```
-4️⃣ Run the App
+## 4️⃣ Run the App
 ```bash
 python pickupLines.py
 ```
-5️⃣ Open in Browser
+## 5️⃣ Open in Browser
 ```bash
 http://127.0.0.1:5000
 ```
 
-##📂 Project Structure
+
+## 📂 Project Structure
 ```bash
 pickup-line-generator/
 │
@@ -62,7 +63,7 @@ pickup-line-generator/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project README
 ```
-##✨ Future Improvements
+## ✨ Future Improvements
 
 - Deploy to Render, Vercel, or Heroku.
 
