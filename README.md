@@ -50,7 +50,7 @@ python pickupLines.py
 http://127.0.0.1:5000
 ```
 
-#📂 Project Structure
+##📂 Project Structure
 ```bash
 pickup-line-generator/
 │
@@ -62,12 +62,12 @@ pickup-line-generator/
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project README
 ```
-✨ Future Improvements
+##✨ Future Improvements
 
-Deploy to Render, Vercel, or Heroku.
+- Deploy to Render, Vercel, or Heroku.
 
-Add text-to-speech for reading pickup lines aloud.
+- Add text-to-speech for reading pickup lines aloud.
 
-Add copy to clipboard or share to social media features.
+- Add copy to clipboard or share to social media features.
 
-Implement dark/light mode toggle.
+- Implement dark/light mode toggle.
