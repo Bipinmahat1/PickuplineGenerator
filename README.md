@@ -1,6 +1,6 @@
 # 💘 Pickup Line Generator 
 
-A web-based Pickup Line Generator powered by **OpenAI's GPT-4**. Users can select the style of pickup line—whether it's **funny, flirty, cheesy, bold, simple, nerdy, or romantic**—and the app generates a creative pickup line on demand.
+A web-based Pickup Line Generator powered by **OpenAI's GPT-4**. Users can select the style of pickup line—whether it's **funny, flirty, cheesy, bold, simple, nerdy, or romantic** and the app generates a creative pickup line on demand.
 
 Built with **Python Flask** for the backend, **OpenAI API** for AI-powered text generation, and a sleek responsive frontend using **HTML, CSS, and JavaScript**.
 
