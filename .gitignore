@@ -1,0 +1,37 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore database files (if local)
+*.db
+
+# Ignore logs
+*.log
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore virtual environments or pipenv
+pip-wheel-metadata/
+*.egg-info/
+
+# Ignore compiled files
+*.so
+
+# Ignore node_modules if any frontend deps later
+node_modules/
+
+# Ignore SQLite DB for local testing (optional)
+*.sqlite3

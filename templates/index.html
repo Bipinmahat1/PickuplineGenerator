@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickup Line Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>💘 Pickup Line Generator</h1>
+        <p>Need a smooth line? Choose a style 👇</p>
+
+        <select id="lineType">
+            <option value="funny">Funny</option>
+            <option value="flirty">Flirty</option>
+            <option value="cheesy">Cheesy</option>
+            <option value="bold">Bold</option>
+            <option value="simple">Simple</option>
+            <option value="nerdy">Nerdy</option>
+            <option value="romantic">Romantic</option>
+        </select>
+
+        <button id="generate">Generate Pickup Line</button>
+        <div id="output"></div>
+    </div>
+
+    <script>
+        document.getElementById('generate').addEventListener('click', async () => {
+            const lineType = document.getElementById('lineType').value;
+            const output = document.getElementById('output');
+            output.innerHTML = "Generating...";
+
+            const response = await fetch('/generate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ lineType })
+            });
+
+            const data = await response.json();
+            output.innerHTML = data.pickup_line || "Oops! Something went wrong.";
+        });
+    </script>
+</body>
+</html>

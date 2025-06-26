@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+
+h1 {
+    color: #ff6f61;
+}
+
+button {
+    padding: 12px 25px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e85c50;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff3f2;
+    border-radius: 10px;
+    border: 1px solid #ffdad7;
+    min-height: 40px;
+}
+select {
+    padding: 10px 15px;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    background-color: white;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 15px;
+}
+
+select:hover {
+    border-color: #e85c50;
+}
+
+select:focus {
+    box-shadow: 0 0 0 3px rgba(255, 111, 97, 0.3);
+}
+
+option {
+    background-color: white;
+    color: #333;
+}
+
